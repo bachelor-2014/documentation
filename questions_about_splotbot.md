@@ -15,6 +15,8 @@ the needs of future users.
   the user intervening between the repetitions?
 - Must it be possible to perform several different experiments in a row, kept in
   a queue of some sort?
+- What kind of result data must be the output of an experiment (e.g. what data
+  for each usage scenario)?
 - How must experiment result data be available after the experiment has run
   (e.g. available through a graphical user interface, as downloadable files etc.)?
 - Must experiment result data be available during the running of an experiment?
