@@ -1,9 +1,9 @@
 #Questions concerning Splotbot and its use
-The following questions are an attempt to cover them knowledge we need in order
+The following questions are an attempt to cover the knowledge we need in order
 to work on Splotbot, improving it and providing functionality as according to
 the needs of future users.
 
-##Functional requirements
+##Functionality
 - Which experiments are to be performed (e.g. a usage scenario)?
 - What is the number of different liquids being handled in a single experiment?
 - With what precision must the liquids be handled (e.g. what is the minimum
@@ -13,6 +13,15 @@ the needs of future users.
   a human starting the experiment)?
 - Must the robot be able to repeat the same experiment multiple times without
   the user intervening between the repetitions?
+- Must it be possible to perform several different experiments in a row, kept in
+  a queue of some sort?
+- How must experiment result data be available after the experiment has run
+  (e.g. available through a graphical user interface, as downloadable files etc.)?
+- Must experiment result data be available during the running of an experiment?
+- What logging must be done by the robot (e.g. logging of access to the robot,
+  loggin of experiments etc.)?
+- What security must be considered concerning access to the robot (e.g. who has
+  access, how must users authenticate themselves etc.)?
 
 ##Usability
 - What are the qualifications of the users of the robot (e.g. one or more
