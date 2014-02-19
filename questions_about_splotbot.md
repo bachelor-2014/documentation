@@ -19,7 +19,7 @@ the needs of future users.
   (e.g. available through a graphical user interface, as downloadable files etc.)?
 - Must experiment result data be available during the running of an experiment?
 - What logging must be done by the robot (e.g. logging of access to the robot,
-  loggin of experiments etc.)?
+  logging of experiments etc.)?
 - What security must be considered concerning access to the robot (e.g. who has
   access, how must users authenticate themselves etc.)?
 
