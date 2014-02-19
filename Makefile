@@ -1,4 +1,4 @@
-all: arwen_requirements.pdf choice_of_language.pdf group_agreement.pdf image_stitching_algorithms.pdf microscope.pdf
+all: arwen_requirements.pdf choice_of_language.pdf group_agreement.pdf image_stitching_algorithms.pdf microscope.pdf questions_about_splotbot.pdf
 
 %.pdf: %.md
 	pandoc -o $@ $^
